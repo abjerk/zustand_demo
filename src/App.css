@@ -29,6 +29,23 @@
   color: rgb(35, 38, 46);
 }
 
+.theme_section h3 {
+  padding: 10px 8px;
+  margin: 10px;
+}
+
+h3.light-mode  {
+  border-radius: 15px;
+  background-color: rgb(230, 230, 108);
+  color: rgb(35, 38, 46);
+}
+
+h3.dark-mode {
+  border-radius: 15px;
+  background-color: purple;
+  color: #fffffc;
+}
+
 
 button {
   max-height: 70px;
