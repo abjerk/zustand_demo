@@ -1,11 +1,5 @@
 import { create } from 'zustand';
 
-// Define the types for your store state
-interface ThemeState {
-  isDarkMode: boolean;
-  toggleTheme: () => void;
-}
-
 // place all states and functions within a store for the defined interface
 interface ThemeState {
   isDarkMode: boolean;
@@ -25,7 +19,6 @@ const useThemeStore = create<ThemeState>((set) => ({
       };
     }),
 }));
-
 
 interface FormState {
   name: string;
